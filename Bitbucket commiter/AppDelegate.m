@@ -233,7 +233,7 @@
 - (void) taskDidRecieveData:(NSData*) theData fromTask:(MFTask*) task {
 	NSString *stringRep = [[NSString alloc] initWithData:theData encoding:NSASCIIStringEncoding];
 	NSLog(@"%@\n",stringRep);
-	if (stringRep == @"Username:") {
+	if ([stringRep isEqualToString:@"Username:"]) {
 
         [writeHandle writeData:[@"pablo-merino" dataUsingEncoding:NSUTF8StringEncoding]];
     }
