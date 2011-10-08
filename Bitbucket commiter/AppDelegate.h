@@ -34,6 +34,7 @@
     NSString *result;
     NSString *pushresult;
     MFTask *currentTask;
+    NSFileHandle *writeHandle;
 
 }
 

@@ -125,10 +125,14 @@
 
 }
 - (IBAction)gitPush:(id)sender {
+    NSPipe *readPipe = [[NSPipe alloc] init];
+
     currentTask = [[MFTask alloc] init];
     [currentTask setLaunchPath:@"/usr/bin/git"];
     [currentTask setCurrentDirectoryPath:filePath];
     [currentTask setTag:@"push"];
+    [currentTask setStandardInput:readPipe];
+    writeHandle = [readPipe fileHandleForWriting];
 
     [currentTask setArguments:[NSArray arrayWithObjects:@"push", nil]];
 	[currentTask setDelegate:self];
@@ -229,7 +233,10 @@
 - (void) taskDidRecieveData:(NSData*) theData fromTask:(MFTask*) task {
 	NSString *stringRep = [[NSString alloc] initWithData:theData encoding:NSASCIIStringEncoding];
 	NSLog(@"%@\n",stringRep);
-	
+	if (stringRep == @"Username:") {
+
+        [writeHandle writeData:[@"pablo-merino" dataUsingEncoding:NSUTF8StringEncoding]];
+    }
     [self writeToLog:stringRep];
 	
 }
@@ -277,6 +284,7 @@
 
     } else if([theTask tag] == @"push") {
         [self writeToLog:@"Pushing..."];
+        
         [gitPushBtn setEnabled:NO];
         [gitCancelBtn setEnabled:NO];
         [gitPullBtn setEnabled:NO];
