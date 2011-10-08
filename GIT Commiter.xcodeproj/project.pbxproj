@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E8867C914404B64009396F4 /* MFTask.h in Sources */ = {isa = PBXBuildFile; fileRef = 6E8867C414404B64009396F4 /* MFTask.h */; };
+		6E8867CA14404B64009396F4 /* MFTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E8867C514404B64009396F4 /* MFTask.m */; };
+		6E8867CB14404B64009396F4 /* MFTaskDelegateProtocol.h in Sources */ = {isa = PBXBuildFile; fileRef = 6E8867C614404B64009396F4 /* MFTaskDelegateProtocol.h */; };
+		6E8867CC14404B64009396F4 /* MFTaskQueue.h in Sources */ = {isa = PBXBuildFile; fileRef = 6E8867C714404B64009396F4 /* MFTaskQueue.h */; };
+		6E8867CD14404B64009396F4 /* MFTaskQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E8867C814404B64009396F4 /* MFTaskQueue.m */; };
+		6E8867D614406040009396F4 /* Icons.icns in Resources */ = {isa = PBXBuildFile; fileRef = 6E8867D514406040009396F4 /* Icons.icns */; };
+		6EE184CF143DE5AA008D861D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EE184CE143DE5AA008D861D /* Cocoa.framework */; };
+		6EE184D9143DE5AA008D861D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6EE184D7143DE5AA008D861D /* InfoPlist.strings */; };
+		6EE184DB143DE5AA008D861D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE184DA143DE5AA008D861D /* main.m */; };
+		6EE184DF143DE5AA008D861D /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 6EE184DD143DE5AA008D861D /* Credits.rtf */; };
+		6EE184E2143DE5AA008D861D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE184E1143DE5AA008D861D /* AppDelegate.m */; };
+		6EE184E5143DE5AA008D861D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EE184E3143DE5AA008D861D /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6E8867C414404B64009396F4 /* MFTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.objj.h; path = MFTask.h; sourceTree = "<group>"; };
+		6E8867C514404B64009396F4 /* MFTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFTask.m; sourceTree = "<group>"; };
+		6E8867C614404B64009396F4 /* MFTaskDelegateProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.objj.h; path = MFTaskDelegateProtocol.h; sourceTree = "<group>"; };
+		6E8867C714404B64009396F4 /* MFTaskQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.objj.h; path = MFTaskQueue.h; sourceTree = "<group>"; };
+		6E8867C814404B64009396F4 /* MFTaskQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFTaskQueue.m; sourceTree = "<group>"; };
+		6E8867D514406040009396F4 /* Icons.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Icons.icns; sourceTree = "<group>"; };
+		6EE184CA143DE5AA008D861D /* GIT Commiter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GIT Commiter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EE184CE143DE5AA008D861D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		6EE184D1143DE5AA008D861D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		6EE184D2143DE5AA008D861D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		6EE184D3143DE5AA008D861D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6EE184D6143DE5AA008D861D /* GIT Commiter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GIT Commiter-Info.plist"; sourceTree = "<group>"; };
+		6EE184D8143DE5AA008D861D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6EE184DA143DE5AA008D861D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6EE184DC143DE5AA008D861D /* GIT Commiter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GIT Commiter-Prefix.pch"; sourceTree = "<group>"; };
+		6EE184DE143DE5AA008D861D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		6EE184E0143DE5AA008D861D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6EE184E1143DE5AA008D861D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		6EE184E4143DE5AA008D861D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6EE184C7143DE5AA008D861D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EE184CF143DE5AA008D861D /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6EE184BF143DE5A9008D861D = {
+			isa = PBXGroup;
+			children = (
+				6E8867D514406040009396F4 /* Icons.icns */,
+				6EE184D4143DE5AA008D861D /* BitbucketCommiter */,
+				6EE184CD143DE5AA008D861D /* Frameworks */,
+				6EE184CB143DE5AA008D861D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6EE184CB143DE5AA008D861D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6EE184CA143DE5AA008D861D /* GIT Commiter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6EE184CD143DE5AA008D861D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6EE184CE143DE5AA008D861D /* Cocoa.framework */,
+				6EE184D0143DE5AA008D861D /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6EE184D0143DE5AA008D861D /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6EE184D1143DE5AA008D861D /* AppKit.framework */,
+				6EE184D2143DE5AA008D861D /* CoreData.framework */,
+				6EE184D3143DE5AA008D861D /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		6EE184D4143DE5AA008D861D /* BitbucketCommiter */ = {
+			isa = PBXGroup;
+			children = (
+				6E8867C414404B64009396F4 /* MFTask.h */,
+				6E8867C514404B64009396F4 /* MFTask.m */,
+				6E8867C614404B64009396F4 /* MFTaskDelegateProtocol.h */,
+				6E8867C714404B64009396F4 /* MFTaskQueue.h */,
+				6E8867C814404B64009396F4 /* MFTaskQueue.m */,
+				6EE184E0143DE5AA008D861D /* AppDelegate.h */,
+				6EE184E1143DE5AA008D861D /* AppDelegate.m */,
+				6EE184E3143DE5AA008D861D /* MainMenu.xib */,
+				6EE184D5143DE5AA008D861D /* Supporting Files */,
+			);
+			name = BitbucketCommiter;
+			path = "Bitbucket commiter";
+			sourceTree = "<group>";
+		};
+		6EE184D5143DE5AA008D861D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6EE184D6143DE5AA008D861D /* GIT Commiter-Info.plist */,
+				6EE184D7143DE5AA008D861D /* InfoPlist.strings */,
+				6EE184DA143DE5AA008D861D /* main.m */,
+				6EE184DC143DE5AA008D861D /* GIT Commiter-Prefix.pch */,
+				6EE184DD143DE5AA008D861D /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6EE184C9143DE5AA008D861D /* GIT Commiter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EE184E8143DE5AA008D861D /* Build configuration list for PBXNativeTarget "GIT Commiter" */;
+			buildPhases = (
+				6EE184C6143DE5AA008D861D /* Sources */,
+				6EE184C7143DE5AA008D861D /* Frameworks */,
+				6EE184C8143DE5AA008D861D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GIT Commiter";
+			productName = "Bitbucket commiter";
+			productReference = 6EE184CA143DE5AA008D861D /* GIT Commiter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6EE184C1143DE5A9008D861D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 6EE184C4143DE5A9008D861D /* Build configuration list for PBXProject "GIT Commiter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6EE184BF143DE5A9008D861D;
+			productRefGroup = 6EE184CB143DE5AA008D861D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6EE184C9143DE5AA008D861D /* GIT Commiter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6EE184C8143DE5AA008D861D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EE184D9143DE5AA008D861D /* InfoPlist.strings in Resources */,
+				6EE184DF143DE5AA008D861D /* Credits.rtf in Resources */,
+				6EE184E5143DE5AA008D861D /* MainMenu.xib in Resources */,
+				6E8867D614406040009396F4 /* Icons.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6EE184C6143DE5AA008D861D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EE184DB143DE5AA008D861D /* main.m in Sources */,
+				6EE184E2143DE5AA008D861D /* AppDelegate.m in Sources */,
+				6E8867C914404B64009396F4 /* MFTask.h in Sources */,
+				6E8867CA14404B64009396F4 /* MFTask.m in Sources */,
+				6E8867CB14404B64009396F4 /* MFTaskDelegateProtocol.h in Sources */,
+				6E8867CC14404B64009396F4 /* MFTaskQueue.h in Sources */,
+				6E8867CD14404B64009396F4 /* MFTaskQueue.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6EE184D7143DE5AA008D861D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EE184D8143DE5AA008D861D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6EE184DD143DE5AA008D861D /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EE184DE143DE5AA008D861D /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		6EE184E3143DE5AA008D861D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EE184E4143DE5AA008D861D /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6EE184E6143DE5AA008D861D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6EE184E7143DE5AA008D861D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6EE184E9143DE5AA008D861D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bitbucket commiter/GIT Commiter-Prefix.pch";
+				INFOPLIST_FILE = "Bitbucket commiter/GIT Commiter-Info.plist";
+				PRODUCT_NAME = "GIT Commiter";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6EE184EA143DE5AA008D861D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bitbucket commiter/GIT Commiter-Prefix.pch";
+				INFOPLIST_FILE = "Bitbucket commiter/GIT Commiter-Info.plist";
+				PRODUCT_NAME = "GIT Commiter";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6EE184C4143DE5A9008D861D /* Build configuration list for PBXProject "GIT Commiter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EE184E6143DE5AA008D861D /* Debug */,
+				6EE184E7143DE5AA008D861D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EE184E8143DE5AA008D861D /* Build configuration list for PBXNativeTarget "GIT Commiter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EE184E9143DE5AA008D861D /* Debug */,
+				6EE184EA143DE5AA008D861D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6EE184C1143DE5A9008D861D /* Project object */;
+}
